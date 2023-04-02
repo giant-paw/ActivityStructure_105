@@ -11,17 +11,32 @@ struct mahasiswa {
 int main() {
 	mahasiswa mhs1, mhs2;
 
+	//mhs1
 	mhs1.NIM = "20220140105";
 	mhs1.nama = "Giant";
 	mhs1.alamat = "Klaten";
 	mhs1.umur = 19;
 
+	//mhs2 (input)
 	cout << "Masukkan NIM : ";
-	cin >> mhs1.NIM;
+	cin >> mhs2.NIM;
 	cout << "Masukkan Nama : ";
-	cin >> mhs1.nama;
+	cin >> mhs2.nama;
 	cout << "Masukkan Alamat : ";
-	cin >> mhs1.alamat;
+	cin >> mhs2.alamat;
 	cout << "Masukkan Umur : ";
-	cin >> mhs1.umur;
+	cin >> mhs2.umur;
+
+	//output mhs1
+	cout << "NIM = " << mhs1.NIM;
+	cout << "\nNama = " << mhs1.nama;
+	cout << "\nAlamat = " << mhs1.alamat;
+	cout << "\nUmur = " << mhs1.umur;
+	cout << endl;
+
+	//output mhs2
+	cout << "NIM = " << mhs1.NIM;
+	cout << "\nNama = " << mhs1.nama;
+	cout << "\nAlamat = " << mhs1.alamat;
+	cout << "\nUmur = " << mhs1.umur;
 }
