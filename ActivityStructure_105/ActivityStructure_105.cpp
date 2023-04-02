@@ -26,7 +26,7 @@ int main() {
 	cin >> mhs2.alamat;
 	cout << "Masukkan Umur : ";
 	cin >> mhs2.umur;
-	cout << "\n\n";
+	cout << "\n";
 
 	//output mhs1
 	cout << "---- Mahasiswa 1 ----\n";
