@@ -33,6 +33,8 @@ int main() {
 		cout << "\n";
 	}
 
+	cout << "==================================\n";
+
 	//Display
 	for (int i = 0; i < 3; i++) {
 		cout << "\n---- Mahasiswa ke-" << (i + 1) << " ----\n";
