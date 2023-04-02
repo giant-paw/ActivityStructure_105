@@ -21,7 +21,7 @@ int main() {
 	cin >> mhs.NIM;
 	cout << "Masukkan Nama : ";
 	cin >> mhs.nama;
-	cout << "Asal Sesa : ";
+	cout << "Asal Desa : ";
 	cin >> mhs.alamat.desa;
 	cout << "Asal Kota : ";
 	cin >> mhs.alamat.kota;
