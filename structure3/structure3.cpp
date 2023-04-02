@@ -41,5 +41,6 @@ int main() {
 		cout << "\nAsal Desa = " << mhs[i].alamat.desa;
 		cout << "\nAsal Kota = " << mhs[i].alamat.kota;
 		cout << "\nUmur = " << mhs[i].umur;
+		cout << "\n\n";
 	}
 }
