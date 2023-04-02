@@ -15,7 +15,8 @@ struct mahasiswa {
 
 int main() {
 	mahasiswa mhs;
-
+	
+	//input mahasiswa
 	cout << "Masukkan NIM : ";
 	cin >> mhs.NIM;
 	cout << "Masukkan Nama : ";
@@ -27,4 +28,12 @@ int main() {
 	cout << "Masukkan Umur : ";
 	cin >> mhs.umur;
 	cout << "\n";
+
+	//display mahasiswa
+	cout << "---- Mahasiswa ----\n";
+	cout << "NIM = " << mhs.NIM;
+	cout << "\nNama = " << mhs.nama;
+	cout << "\nAsal Desa = " << mhs.alamat.desa;
+	cout << "\nAsal Kota = " << mhs.alamat.kota;
+	cout << "\nUmur = " << mhs.umur;
 }
